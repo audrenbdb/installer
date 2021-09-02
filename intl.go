@@ -167,7 +167,7 @@ func (i *installer) getRemoveFolderAfterInstallText(path string) string {
 func (i *installer) getInstallationSuccessText() string {
 	switch i.lang {
 	case fr:
-		return "<p>Le processus s'est déroulé correctement jusqu'à son terme.</p><p><b>Vous pouvez fermer cette fenêtre.</b></p><p>Si vous le souhaitez, vous pouvez voir l'historique'des étapes achevées via le bouton ci-dessous.</p>"
+		return "<p>Le processus s'est déroulé correctement jusqu'à son terme.</p><p><b>Vous pouvez fermer cette fenêtre.</b></p><p>Si vous le souhaitez, vous pouvez voir l'historique des étapes achevées via le bouton ci-dessous.</p>"
 	case vi:
 		return "<p>Quá trình diễn ra suôn sẻ để hoàn tất.</p><p><b>Bạn có thể đóng cửa sổ này.</b></p><p>Nếu muốn, bạn có thể xem lịch sử của các bước đã hoàn thành qua nút bên dưới.</p>"
 	default:
