@@ -49,7 +49,8 @@ The GUI is managed with wails : https://wails.app/
 
 When you build for windows from linux, you need cross compilation libraries available with package build essentials :
 ````
-apt-get install build-essential
+sudo apt install mingw-w64
+sudo apt-get install build-essential
 ````
 A typical build command for windows would then be :
 ````
